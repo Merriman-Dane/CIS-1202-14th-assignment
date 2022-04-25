@@ -9,7 +9,7 @@ Car::Car()
 
 void Car::displayInfo()
 {
-	Vehicle::displayInfo;
+	Vehicle::displayInfo();
 	cout << "Doors: " << doors;
 }
 
