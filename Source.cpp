@@ -10,12 +10,16 @@ using namespace std;
 
 int main()
 {
+    cout << "Vehicle Program\n\n";
+
+    cout << "Vehicle: \n";
     Vehicle v;
     v.setMake();
     v.setYear();
     v.displayInfo();
     cout << endl;
 
+    cout << "Car: \n";
     Car c;
     c.setMake();
     c.setYear();
@@ -23,6 +27,7 @@ int main()
     c.displayInfo();
     cout << endl;
 
+    cout << "Truck: \n";
     Truck t;
     t.setMake();
     t.setYear();

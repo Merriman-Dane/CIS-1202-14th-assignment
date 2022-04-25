@@ -1,4 +1,4 @@
-#include "car.h"
+#include "Car.h"
 #include <iostream>
 using namespace std;
 
@@ -10,7 +10,7 @@ Car::Car()
 void Car::displayInfo()
 {
 	Vehicle::displayInfo();
-	cout << "Doors: " << doors;
+	cout << "Doors: " << doors << endl;
 }
 
 void Car::setDoors()
